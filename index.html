@@ -5,6 +5,10 @@
   <title> Web開発の練習１</title>
   <link rel="stylesheet" href="mystyle.css">
   <script src="myjs.js"></script>
+  <script src="ex06-5.js"></script>
+  <script src="ex06-7.js"></script>
+  <script src="ex06-8.js"></script>
+  <script src="ex06-9.js"></script>
 </head>
 <body>
   <!--文字の大きさの練習-->
@@ -264,13 +268,37 @@ href="https://www.josai.ac.jp/club/ekiden_joshiekiden.html
 <input type="button" value="ここをクリック"
 ondblclick="alert('Hello, Anzi!');"> -->
 <input type="button" value="ここをクリック"
-onclick="sayhello();sayhello();">
+onclick="sayhello65();sayhello65();">
 <input type="button" value="ここをクリック"
-onclick="saygoodbye();">
-<h1>変数の練習</h1>
-    <input type = "button" value = "あいさつ" onclick="sayhello();">
-    <input type = "button" value = "太郎" onclick="taro();">
-    <input type = "button" value = "花子" onclick="hanako();">
+onclick="saygoodbye65();">
+<h1>変数の練習66</h1>
+    <input type = "button" value = "あいさつ" onclick="sayhello65();">
+    <input type = "button" value = "太郎" onclick="taro65();gakita();">
+    <input type = "button" value = "花子" onclick="hanako65();gakita();">  
+<h1>引数の練習67</h1>
+    <input type="button" value="あいさつ" onclick="sayhello67();">
+    <input type="button" value="太郎" onclick="someone('太郎');">
+    <input type="button" value="花子" onclick="someone('花子');">  
+    <input type="button" value="レイ" onclick="someone('レイ');">
+    <input type="button" value="シンジ" onclick="someone('シンジ');"> 
+    <input type="button" value="アスカ" onclick="someone('アスカ');">
+<h1>JavaScriptによる変更の練習68</h1>
+    <input type="button" value="あいさつ" onclick="sayhello68();">
+    <input type="button" value="太郎" onclick="taro68();">
+    <input type="button" value="花子" onclick="hanako68();">
+    <p id="who">world</p>
+<h1>イチゴの画像です</h1>
+<div><img id="ichigo" src="./image/ichigo.jpg"></div>
+    <input type="button" value="くっつく" onclick="okikae();">
+    <input type="button" value="離れる" onclick="okikae2();">
+<h1>タイマーイベント</h1>
+<div><img id="ichigo2" src="./image/ichigo.jpg"></div>
+    <input type="button" value="タイマーボタン" onclick="okikae3();">  
+
+
+
+
+
 
 
 </body>
