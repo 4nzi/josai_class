@@ -4,6 +4,16 @@ function bmi() {
 
     Number(kg);
     parseFloat(m);
+    
+    result = kg/Math.pow(m, 2);
+    alert(result);
 
-    alert(kg/Math.pow(m, 2));
+    if (result >= 25) {
+        alert("肥満");
+    }else if (result >= 18.5) {
+        alert("普通");
+    }else{
+        alert("低体重");
+    }
+     
 }
