@@ -15,3 +15,7 @@ function modoru() {
     document.getElementById('ichigo2').src="image/ichigo.jpg";
 
 }
+
+function txtchange1() {
+    document.getElementById('txt1').innerHTML ="ナンバーワン！"
+}
